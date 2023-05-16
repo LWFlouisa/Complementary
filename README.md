@@ -24,9 +24,12 @@ a.train(:complementary_flavor,       "sweet and salty", "word")
 a.train(:complementary_flavor, "peanuts and chocolate", "word")
 a.train(:complementary_flavor, "caramel and chocolate", "word")
 a.train(:complementary_flavor,      "cream and coffee", "word")
+a.train(:complementary_flavor,  "pepper and sourkraut", "word")
+a.train(:complementary_flavor, "ketchup and sourkraut", "word")
 
 a.train(:noncomplementary_flavor,   "ketchup and chocolate", "word")
 a.train(:noncomplementary_flavor, "chocolate and sourkraut", "word")
+a.train(:noncomplementary_flavor,     "caramel and ketchup", "word")
 
 a.train(:poisonous, "ammonia and chocolate", "word")
 
