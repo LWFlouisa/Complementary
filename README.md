@@ -27,6 +27,7 @@ a.train(:complementary_flavor,      "cream and coffee", "word")
 a.train(:complementary_flavor,  "pepper and sourkraut", "word")
 a.train(:complementary_flavor, "ketchup and sourkraut", "word")
 
+# Non Complementary Flavors
 a.train(:noncomplementary_flavor,   "ketchup and chocolate", "word")
 a.train(:noncomplementary_flavor, "chocolate and sourkraut", "word")
 a.train(:noncomplementary_flavor,     "caramel and ketchup", "word")
